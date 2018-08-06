@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.wrapper{
+	width: 95%;
+	min-width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #D9D0D0;
+	text-align: center;
+}
+.wrapper .box{
+	display: inline-block;
+}
+.wrapper .box li{
+	float: left;
+}
+.wrapper .box li .item{
+	width: 200px;
+	padding: 10px;
+	margin: 10px 5px ;
+	border: 1px solid #DBCFCF;
+	border-radius: 5px;
+}
+.wrapper .box li .item .box{
+	width: 100%;
+	overflow: hidden;
+}
+.wrapper .box li .item img{
+	width: 100%;
+}
+.wrapper .box li .item p{
+	font-size: 16px;
+}
